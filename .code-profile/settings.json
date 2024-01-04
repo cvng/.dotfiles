@@ -1,0 +1,75 @@
+{
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "dorzey.vscode-sqlfluff"
+  },
+  "auto-run-command.rules": [
+    {
+      "command": "workbench.action.toggleScreencastMode",
+      "condition": "always",
+      "message": "Toggle Screencast Mode"
+    }
+  ],
+  "breadcrumbs.enabled": false,
+  "diffEditor.codeLens": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.fontFamily": "Monaspace Krypton, JetBrains Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.lightbulb.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.overviewRulerBorder": false,
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "trailing",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.suggest.insertMode": "replace",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.enableSmartCommit": true,
+  "git.mergeEditor": true,
+  "html.format.enable": false,
+  "rust-analyzer.imports.granularity.group": "item",
+  "rust-analyzer.procMacro.enable": true,
+  "screencastMode.fontSize": 24,
+  "screencastMode.keyboardOptions": {
+    "showCommands": false,
+    "showSingleEditorCursorMoves": false
+  },
+  "screencastMode.keyboardOverlayTimeout": 500,
+  "screencastMode.mouseIndicatorSize": 30,
+  "screencastMode.verticalOffset": 3,
+  "symbols.hidesExplorerArrows": false,
+  "terminal.integrated.scrollback": 4000,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "vim.easymotion": true,
+  "vim.smartRelativeLine": true,
+  "vim.statusBarColorControl": true,
+  "vim.useSystemClipboard": true,
+  "window.commandCenter": false,
+  "window.zoomLevel": 1,
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f87",
+    "statusBar.noFolderBackground": "#005f87",
+    "statusBar.debuggingBackground": "#005f87",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingForeground": "#ffffff"
+  },
+  "workbench.colorTheme": "Vesper",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "feather-vscode",
+  "workbench.sideBar.location": "right"
+}
